@@ -1,2 +1,2 @@
 # ReactStockSearch
-Stock Price App Build With React/Redux
+Stock Price Search App with React/Redux
