@@ -1,6 +1,8 @@
 import axios from 'axios';
 
-const API_KEY='GET_YOUR_OWN_KEY';
+import * as config from '../../api_config';
+
+const API_KEY=config.MY_KEY;
 const ROOT_URL='https://www.quandl.com/api/v3/datasets/WIKI/'
 
 export const GET_STOCK_HISTORY = 'GET_STOCK_HISTORY';

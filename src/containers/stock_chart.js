@@ -6,7 +6,6 @@ import CandleStick from '../components/time_series';
 class StockChart extends Component {
 
 	prepareChartData() {
-		
 		const x = this.props.stockData.data.map(day => day[0]);
 		const open = this.props.stockData.data.map(day => day[8]);
 		const high = this.props.stockData.data.map(day => day[9]);
@@ -29,7 +28,6 @@ class StockChart extends Component {
 	}
 
 	render(){
-
 		if (this.props.stockData.length==0) {
 			return null;
 		}
@@ -45,9 +43,7 @@ class StockChart extends Component {
 		return (
 				<CandleStick chartData={chartData} layout={layout}/>
 		);
-	}
-
-	
+	}	
 }
 
 function mapStateToProps({ stockData }) {

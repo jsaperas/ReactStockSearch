@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 import Plotly from '../../custom-plotly';
 
-
 export default class CandleStick extends Component {
 	
 	drawPlot() {
